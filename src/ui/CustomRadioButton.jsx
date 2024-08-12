@@ -1,6 +1,6 @@
 function CustomRadioButton({ type, checked, onChange }) {
   return (
-    <div className="relative flex items-center">
+    <div className="relative flex items-center select-none">
       <input
         type="radio"
         name="mortgage-type"
